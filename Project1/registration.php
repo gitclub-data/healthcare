@@ -1,0 +1,23 @@
+<?php
+    $First_name=$_POST['First_name'];
+    $Last_name=$_POST['Last_name'];
+    $Email=$_POST['Email'];
+    $Password=$_POST['Password'];
+    $Date=$_POST['Date'];
+    $Month=$_POST['Month'];
+    $year=$_POST['Year'];
+    $Gender=$_POST['Gender'];
+$con=mysqli_connect('localhost','root');
+mysqli_select_db($con,'healthcare');
+$q="insert into customer(First_Name,Last_Name,Email,Password,Birthdate,Birthmonth,Birthyear,Gender) values ('$First_name','$Last_name','$Email','$Password',$Date,'$Month',$year,'$Gender')";
+    $i=mysqli_query($con,$q);
+if($i==1)
+{
+    header('location:http://localhost/project1/oksignup.php');
+}
+else
+{
+    header('location:http://localhost/project1/signup.php');
+}
+mysqli_close($con);
+?>

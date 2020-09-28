@@ -1,0 +1,89 @@
+body,div,h1,h2,h3,h4,h5,h6,a{
+    margin:0;
+    padding: 0;
+}
+#first
+{
+    width: 1345px;
+    height: 135px;
+}
+#firstimage
+{
+    position: absolute;
+    left: 120px;
+}
+            #firstlink1
+{
+    position: absolute;
+    left: 550px;
+    top: 70px;
+}
+#firstlink2
+{
+    position: absolute;
+    left: 670px;
+    top: 70px;
+}
+#firstlink3
+{
+    position: absolute;
+    left: 800px;
+    top: 70px;
+}
+        #firstlink4
+{
+    position: absolute;
+    left: 920px;
+    top: 70px;
+}
+#firstlink5
+{
+    position: absolute;
+    left: 1140px;
+    top: 70px;
+    
+}
+#second
+{
+     width: 1345px;
+    height: 60px;
+    position: absolute;
+    background-color: gainsboro;
+}
+#secondparagraph
+{
+    position: absolute;
+    left: 100px;
+    top:-2px;
+    color: deeppink;
+    font-size: 20px;
+}
+#secondinput
+{
+ position: absolute;
+    left: 200px;
+    top: 15px;
+    height: 30px;
+    width: 500px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 15px;
+}
+#searchbutton
+{
+position: absolute;
+    top: 14px;
+    left: 700px;
+    border-bottom-right-radius: 30px;
+        border-top-right-radius: -30px;
+    background-color:antiquewhite;
+ height: 37px;
+    width: 100px;
+}
+#secondimage
+{
+    position: absolute;
+    left: 1260px;
+    width: 40px;
+    height: 40px;
+}
